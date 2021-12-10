@@ -24,8 +24,8 @@ No mesmo diretório, você deve rodar o comando:
 python3 app.py
 ```
 
-Caso seja a primeira vez rodando, o programa irá dar uma mensagem: "Initialized the database."
-Assim, a base de dados foi inicializada e você pode rodar novamento o comando acima para inicializar o servidor!
+Caso seja a primeira vez rodando, o programa irá retornar uma mensagem: "Initialized the database."
+Assim, a base de dados foi inicializada e você pode rodar novamente o comando acima para inicializar o servidor!
 
 #### Dificuldades
 
