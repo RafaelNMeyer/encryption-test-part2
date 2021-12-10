@@ -1,0 +1,12 @@
+{% extends "index.html" %}
+
+{% block title %}Logged{% endblock %}
+
+{% block body %}
+<div class="container-logged">
+    <div class="container-items">
+        <p>Hi <b>{{user}}</b>, you're logged with <b>{{email}}</b>!</p>
+        <a type="button" href="{{ url_for('authGoogle.logout') }}" class="btn btn-secondary btn-sm">Logout</a>
+    </div>
+</div>
+{% endblock %}

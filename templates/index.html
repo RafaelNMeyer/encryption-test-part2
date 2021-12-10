@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Login{% endblock %}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    {% block body %}
+    <div class="container">
+        <a class="btn btn-lg btn-google btn-block text-uppercase btn-outline btn-shadow" href="{{ url_for('authGoogle.login') }}"><img src="https://img.icons8.com/color/16/000000/google-logo.png"> Signin Using Google</a>
+    </div>
+    {% endblock %}
+</body>
+</html>
